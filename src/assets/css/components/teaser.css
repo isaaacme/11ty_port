@@ -1,0 +1,63 @@
+
+
+.teaser__grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: var(---m);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+  aspect-ratio: 21/9;
+}
+
+.teaser__card {
+  border-radius: var(---s);
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+.teaser__card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teaser__card--tall {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.teaser__card--wide {
+  grid-column: 2 / span 2;
+  grid-row: 2;
+}
+
+@media screen and (max-width: 450px) {
+  .teaser {
+    padding-inline: 0;
+  }
+  
+  .teaser__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    aspect-ratio: auto;
+    gap: var(---s);
+  }
+
+  .teaser__card--tall {
+    grid-column: auto;
+    grid-row: auto;
+    aspect-ratio: 16/9;
+  }
+
+  .teaser__card--wide {
+    grid-column: auto;
+    grid-row: auto;
+    aspect-ratio: 16/9;
+  }
+
+  /* Hide the third and fourth cards */
+  .teaser__card:nth-child(n+2) {
+    display: none;
+  }
+} 

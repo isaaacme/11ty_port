@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "title": "פלטפורמת מסחר אלקטרוני",
+      "description": "פיתוח פלטפורמת מסחר אלקטרוני מתקדמת עבור רשת קמעונאית גדולה",
+      "image": "https://picsum.photos/400/300?random=9",
+      "client": "רשת ABC",
+      "year": "2023"
+    },
+    {
+      "title": "אפליקציית בריאות",
+      "description": "אפליקציה למעקב אחר אורח חיים בריא ופעילות גופנית",
+      "image": "https://picsum.photos/400/300?random=10",
+      "client": "HealthTech",
+      "year": "2023"
+    },
+    {
+      "title": "מערכת ניהול תוכן",
+      "description": "פיתוח מערכת ניהול תוכן מותאמת אישית לארגון תקשורת גדול",
+      "image": "https://picsum.photos/400/300?random=11",
+      "client": "MediaCorp",
+      "year": "2022"
+    },
+    {
+      "title": "פורטל ארגוני",
+      "description": "פורטל ארגוני מתקדם עם כלי שיתוף פעולה",
+      "image": "https://picsum.photos/400/300?random=12",
+      "client": "Enterprise Solutions",
+      "year": "2022"
+    },
+    {
+      "title": "אפליקציית פינטק",
+      "description": "אפליקציית ניהול פיננסי אישי עם יכולות ניתוח מתקדמות",
+      "image": "https://picsum.photos/400/300?random=13",
+      "client": "FinTech Innovation",
+      "year": "2023"
+    },
+    {
+      "title": "מערכת שירות לקוחות",
+      "description": "מערכת שירות לקוחות אוטומטית מבוססת בינה מלאכותית",
+      "image": "https://picsum.photos/400/300?random=14",
+      "client": "ServiceAI",
+      "year": "2023"
+    },
+    {
+      "title": "פלטפורמת למידה מקוונת",
+      "description": "פלטפורמת למידה מקוונת עם תכנים אינטראקטיביים",
+      "image": "https://picsum.photos/400/300?random=15",
+      "client": "EduTech",
+      "year": "2022"
+    },
+    {
+      "title": "מערכת ניהול מלאי",
+      "description": "מערכת ניהול מלאי חכמה עם תחזיות ביקוש",
+      "image": "https://picsum.photos/400/300?random=16",
+      "client": "LogisticsPro",
+      "year": "2023"
+    }
+  ]
+} 

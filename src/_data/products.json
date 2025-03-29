@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "title": "חבילת UI/UX בסיסית",
+      "price": 2999,
+      "description": "עיצוב ממשק משתמש בסיסי כולל 5 מסכים",
+      "image": "https://picsum.photos/400/400?random=20",
+      "category": "עיצוב"
+    },
+    {
+      "title": "חבילת פיתוח ווב",
+      "price": 5999,
+      "description": "פיתוח אתר תדמית מותאם אישית",
+      "image": "https://picsum.photos/400/400?random=21",
+      "category": "פיתוח"
+    },
+    {
+      "title": "חבילת SEO מתקדמת",
+      "price": 1499,
+      "description": "אופטימיזציה מלאה לקידום אורגני",
+      "image": "https://picsum.photos/400/400?random=22",
+      "category": "שיווק"
+    },
+    {
+      "title": "ניהול מדיה חברתית",
+      "price": 999,
+      "description": "ניהול חודשי של הרשתות החברתיות",
+      "image": "https://picsum.photos/400/400?random=23",
+      "category": "שיווק"
+    },
+    {
+      "title": "אפליקציה בסיסית",
+      "price": 9999,
+      "description": "פיתוח אפליקציה בסיסית לאנדרואיד ו-iOS",
+      "image": "https://picsum.photos/400/400?random=24",
+      "category": "פיתוח"
+    },
+    {
+      "title": "חבילת אבטחת מידע",
+      "price": 3999,
+      "description": "סריקת אבטחה מקיפה והגנה בסיסית",
+      "image": "https://picsum.photos/400/400?random=25",
+      "category": "אבטחה"
+    }
+  ]
+} 

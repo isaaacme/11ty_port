@@ -1,0 +1,31 @@
+.selected {
+  margin-bottom: var(---2xl);
+  padding-inline: var(---m);
+}
+
+.selected__title {
+  text-align: center;
+  margin-bottom: var(---xl);
+  font-size: var(---2);
+  font-weight: 700;
+}
+
+.selected__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(---m);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+}
+
+.selected__card {
+  aspect-ratio: 16/9;
+  border-radius: var(---s);
+  background: #f4f4f4;
+}
+
+@media screen and (max-width: 768px) {
+  .selected__grid {
+    grid-template-columns: 1fr;
+  }
+} 

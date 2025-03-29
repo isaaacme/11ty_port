@@ -1,0 +1,52 @@
+{
+  "services": [
+    {
+      "title": "פיתוח אפליקציות",
+      "description": "פיתוח אפליקציות מותאמות אישית לעסקים וארגונים",
+      "image": "https://picsum.photos/400/300?random=1",
+      "id": "app-development"
+    },
+    {
+      "title": "עיצוב ממשק משתמש",
+      "description": "עיצוב חווית משתמש מודרנית ואינטואיטיבית",
+      "image": "https://picsum.photos/400/300?random=2",
+      "id": "ui-design"
+    },
+    {
+      "title": "ייעוץ טכנולוגי",
+      "description": "ייעוץ אסטרטגי לפתרונות טכנולוגיים מתקדמים",
+      "image": "https://picsum.photos/400/300?random=3",
+      "id": "tech-consulting"
+    },
+    {
+      "title": "אבטחת מידע",
+      "description": "פתרונות אבטחת מידע מתקדמים להגנה על המידע שלך",
+      "image": "https://picsum.photos/400/300?random=4",
+      "id": "security"
+    },
+    {
+      "title": "פיתוח תוכנה",
+      "description": "פיתוח פתרונות תוכנה מותאמים אישית",
+      "image": "https://picsum.photos/400/300?random=5",
+      "id": "software-development"
+    },
+    {
+      "title": "ניתוח נתונים",
+      "description": "ניתוח נתונים מתקדם ובינה עסקית",
+      "image": "https://picsum.photos/400/300?random=6",
+      "id": "data-analytics"
+    },
+    {
+      "title": "אוטומציה",
+      "description": "פתרונות אוטומציה לתהליכים עסקיים",
+      "image": "https://picsum.photos/400/300?random=7",
+      "id": "automation"
+    },
+    {
+      "title": "תמיכה טכנית",
+      "description": "תמיכה טכנית מקצועית 24/7",
+      "image": "https://picsum.photos/400/300?random=8",
+      "id": "technical-support"
+    }
+  ]
+} 

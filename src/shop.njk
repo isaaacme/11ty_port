@@ -1,0 +1,111 @@
+---
+layout: layouts/base.njk
+title: חנות
+---
+<div class="shop">
+  <h1 class="shop__title">חנות</h1>
+  <div class="shop__grid">
+    {% for product in products.products %}
+      <div class="shop__card">
+        <img class="shop__image" src="{{ product.image }}" alt="{{ product.title }}">
+        <div class="shop__content">
+          <span class="shop__category">{{ product.category }}</span>
+          <h2 class="shop__card-title">{{ product.title }}</h2>
+          <p class="shop__description">{{ product.description }}</p>
+          <div class="shop__footer">
+            <span class="shop__price">₪{{ product.price }}</span>
+            <button class="shop__button">הוסף לסל</button>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .shop {
+    padding: var(---l) 0;
+  }
+  
+  .shop__title {
+    margin-bottom: var(---l);
+    font-size: var(---3);
+  }
+  
+  .shop__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(---m);
+  }
+  
+  .shop__card {
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .shop__card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .shop__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .shop__content {
+    padding: var(---s);
+  }
+  
+  .shop__category {
+    display: inline-block;
+    padding: var(---3xs) var(---xs);
+    background-color: var(--brand-50);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: var(----1);
+    margin-bottom: var(---xs);
+  }
+  
+  .shop__card-title {
+    margin: 0;
+    font-size: var(---1);
+  }
+  
+  .shop__description {
+    margin: var(---xs) 0;
+    color: var(--text);
+    opacity: 0.8;
+  }
+  
+  .shop__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(---s);
+  }
+  
+  .shop__price {
+    font-size: var(---1);
+    font-weight: 600;
+    color: var(--brand);
+  }
+  
+  .shop__button {
+    background-color: var(--brand);
+    color: var(--white);
+    border: none;
+    padding: var(---xs) var(---s);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+  }
+  
+  .shop__button:hover {
+    background-color: var(--brand-50);
+  }
+</style> 

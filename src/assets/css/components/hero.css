@@ -1,0 +1,25 @@
+.hero__title {
+  font-size: calc(var(---5) * 2);
+  line-height: 1;
+  font-weight: 900;
+}
+
+.hero__subtitle {
+  font-size: var(---0);
+  color: var(--text);
+  line-height: 2;
+} 
+
+@media screen and (max-width: 450px) {
+  .hero__title {
+    font-size: calc(var(---5) * 1.05);
+    text-wrap: balance;
+  }
+
+  .hero__subtitle {
+    font-size: var(---0);
+    line-height: 1.5;
+    max-width: 36ch;
+    padding-block: var(---xs);
+  }
+}

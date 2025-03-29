@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  repo: isaaacme/11typortfolio
+  branch: main
+
+media_folder: src/assets/uploads
+public_folder: /assets/uploads
+
+collections:
+  - name: "project"
+    label: "Project"
+    folder: "src/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "service"
+    label: "Service"
+    folder: "src/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

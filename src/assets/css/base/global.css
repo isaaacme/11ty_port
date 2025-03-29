@@ -1,0 +1,28 @@
+.wrap {
+  padding-block: var(---s);
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  color: var(--text);
+}
+
+body a {
+  color: var(--text);
+}
+
+.home {
+  padding: var(---xl) 0;
+}
+
+.section {
+  margin-block: var(---2xl);
+} 
+
+@media screen and (max-width: 450px) {
+  .section {
+    margin-block: var(---l);
+  }
+}

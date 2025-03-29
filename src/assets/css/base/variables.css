@@ -1,0 +1,28 @@
+:root {
+  --brand: #0010FF;
+  --brand-50: #8085FF;
+  --text: #010B3C;
+  --white: #fff;
+  --max-content-width: 1440px;
+  
+  /* Font sizes */
+  ----2: clamp(0.7813rem, 0.7759rem + 0.0268vw, 0.8rem);
+  ----1: clamp(0.9375rem, 0.9196rem + 0.0893vw, 1rem);
+  ---0: clamp(1.125rem, 1.0893rem + 0.1786vw, 1.25rem);
+  ---1: clamp(1.35rem, 1.2893rem + 0.3036vw, 1.5625rem);
+  ---2: clamp(1.62rem, 1.5248rem + 0.4759vw, 1.9531rem);
+  ---3: clamp(1.944rem, 1.8019rem + 0.7106vw, 2.4414rem);
+  ---4: clamp(2.3328rem, 2.1274rem + 1.0271vw, 3.0518rem);
+  ---5: clamp(2.7994rem, 2.5093rem + 1.4505vw, 3.8147rem);
+
+  /* Spacing */
+  ---3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  ---2xs: clamp(0.5625rem, 0.5446rem + 0.0893vw, 0.625rem);
+  ---xs: clamp(0.875rem, 0.8571rem + 0.0893vw, 0.9375rem);
+  ---s: clamp(1.125rem, 1.0893rem + 0.1786vw, 1.25rem);
+  ---m: clamp(1.6875rem, 1.6339rem + 0.2679vw, 1.875rem);
+  ---l: clamp(2.25rem, 2.1786rem + 0.3571vw, 2.5rem);
+  ---xl: clamp(3.375rem, 3.2679rem + 0.5357vw, 3.75rem);
+  ---2xl: clamp(4.5rem, 4.3571rem + 0.7143vw, 5rem);
+  ---3xl: clamp(6.75rem, 6.5357rem + 1.0714vw, 7.5rem);
+} 
