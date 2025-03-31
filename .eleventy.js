@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
 
   // Watch CSS files for changes during serve
   eleventyConfig.addWatchTarget("./src/assets/css/");
-
+ 
   // Minify and bundle CSS
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
